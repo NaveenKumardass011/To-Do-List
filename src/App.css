@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-color: rgb(62, 143, 236);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toDoList{
+  height: 25rem;
+  width: 20em;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow:5px 5px 10px rgb(239, 223, 223);
+}
+.toDoList h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-style: italic;
+}
+input[type="text"]{
+  height: 40px;
+  border-radius: 5px;
+  margin: 20px 10px 20px 20px;
+  padding-left: 5px;
+  font-size: 15px;
+  border: none;
+  box-shadow:inset 5px 5px 10px rgb(225, 223, 223);
+
+}
+.btn-add{
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(78, 78, 248);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.result{
+  border-top: 2px solid rgba(108, 107, 107, 0.199);
+  text-transform: capitalize;
+
+}
+.result ul li{
+  border-bottom: 2px solid rgba(108, 107, 107, 0.199);
+  padding-left: 30px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  list-style-type: none;
+}
